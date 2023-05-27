@@ -9,7 +9,7 @@ The code in this repository implements Fingerprint data Indexing, presented in o
 # Installation & Usage
 1. Clone this repository.
     ```
-    git clone https://github.com/nishkalprakash/{repo_name}.git
+    git clone https://github.com/alkarnjn/{repo_name}.git
     cd {repo_name}
     ```
 2. Install the dependancies.
