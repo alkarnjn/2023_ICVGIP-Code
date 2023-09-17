@@ -159,3 +159,18 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 datasets/
+*.npy
+*.bmp
+*.pt
+*.h5
+output/
+van_minutiae_feature_fvc2006db2a/
+# !baseline1/*.py
+# !baseline1/*.ipynb
+# baseline1/
+baseline1/combined_fvc2006db2a_cbam/
+baseline1/Dbs_combined
+baseline1/Dbs_combined_splitted
+baseline1/fvc2006db2a_cbamfeature
+baseline1/fvc2006db3a_cbamfeature
+baseline1/models
