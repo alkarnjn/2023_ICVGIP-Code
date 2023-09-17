@@ -174,3 +174,4 @@ baseline1/Dbs_combined_splitted
 baseline1/fvc2006db2a_cbamfeature
 baseline1/fvc2006db3a_cbamfeature
 baseline1/models
+*.pkl
