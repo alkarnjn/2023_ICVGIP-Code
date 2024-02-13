@@ -1,10 +1,37 @@
-class DB(object):
+from lib.globals import *
+from pymongo import MongoClient
+class MongoDB(object):
+    """
+    This class is used to connect to the Mongo database.
+
+    """
+    def __init__(self) -> None:
+        self.db = MONGO_DB
+        self.avail_cols = MONGO_COLLS
+    
+    
+
+
+    
+
+class Dataset(object):
     """
     This class is used to load the dataset and perform some preprocessing.
 
     """
+    def __init__(self,db_name):
+        self.base = DB_HOME
+        self.db_name = db_name
+        self.data_dir = self.base / db_name
+    
+    
+        
 
 
+
+
+
+# class loadJson(DB):
 class Data(object):
     """
     This class is used to load the dataset and perform some preprocessing.

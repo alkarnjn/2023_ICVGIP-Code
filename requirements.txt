@@ -4,12 +4,16 @@
 
 # Basic packages
 numpy
-scipy
-scikit-learn
+#scipy
+#scikit-learn
 matplotlib
 jupyter
 ipython
-ipython-kernel
+# ipykernel
+
+# DB packages
+pymongo
+
 
 # Deep learning packages
 #gensim
